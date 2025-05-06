@@ -36,7 +36,7 @@ class GhostTextPluginView implements PluginValue {
         }).range(pos)
       );
     }    
-    return Decoration.set(widgets);
+    return Decoration.set(widgets); // Convert to a DecorationSet
   }
 }
 
